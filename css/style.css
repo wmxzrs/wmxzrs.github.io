@@ -1,6 +1,6 @@
 @supports (backdrop-filter: blur(20px)) {
   .blur {
-    background: rgba(244,244,244,0.9) !important;
+    background: rgba(255,255,255,0.9) !important;
     backdrop-filter: saturate(200%) blur(20px);
   }
 }
@@ -650,34 +650,34 @@ details >summary {
   background: var(--color-block);
 }
 details[blue] {
-  border-color: #deeaf3;
+  border-color: #e8f4fd;
 }
 details[blue] >summary {
-  background: #deeaf3;
+  background: #e8f4fd;
 }
 details[cyan] {
-  border-color: #def0f4;
+  border-color: #e8fafe;
 }
 details[cyan] >summary {
-  background: #def0f4;
+  background: #e8fafe;
 }
 details[green] {
-  border-color: #e1efe3;
+  border-color: #ebf9ed;
 }
 details[green] >summary {
-  background: #e1efe3;
+  background: #ebf9ed;
 }
 details[yellow] {
-  border-color: #f5eedf;
+  border-color: #fff8e9;
 }
 details[yellow] >summary {
-  background: #f5eedf;
+  background: #fff8e9;
 }
 details[red] {
-  border-color: #f5e5e4;
+  border-color: #feefee;
 }
 details[red] >summary {
-  background: #f5e5e4;
+  background: #feefee;
 }
 details[open] {
   border-color: rgba(68,68,68,0.2);
@@ -1034,7 +1034,7 @@ div.note::before {
   content: '\f054';
 }
 div.note.quote {
-  background: #deeaf3;
+  background: #e8f4fd;
   border-color: #2196f3;
 }
 div.note.quote::before {
@@ -1042,7 +1042,7 @@ div.note.quote::before {
   content: '\f10d';
 }
 div.note.info {
-  background: #e2f1ed;
+  background: #ecfbf7;
   border-color: #44d7b6;
 }
 div.note.info::before {
@@ -1051,7 +1051,7 @@ div.note.info::before {
 }
 div.note.success,
 div.note.done {
-  background: #e1efe3;
+  background: #ebf9ed;
   border-color: #3dc550;
 }
 div.note.success::before,
@@ -1060,7 +1060,7 @@ div.note.done::before {
   content: '\f00c';
 }
 div.note.warning {
-  background: #f5eedf;
+  background: #fff8e9;
   border-color: #ffbd2b;
 }
 div.note.warning::before {
@@ -1069,7 +1069,7 @@ div.note.warning::before {
 }
 div.note.danger,
 div.note.error {
-  background: #f5e5e4;
+  background: #feefee;
   border-color: #fe5f58;
 }
 div.note.danger::before,
@@ -1118,56 +1118,56 @@ div.note.clear {
   border-color: none;
 }
 div.note.light {
-  background: #ebebeb;
-  border-color: #9c9c9c;
+  background: #f5f5f5;
+  border-color: #a1a1a1;
 }
 div.note.light::before {
-  color: #9c9c9c;
+  color: #a1a1a1;
 }
 div.note.gray {
-  background: #ebebeb;
-  border-color: #676767;
+  background: #f5f5f5;
+  border-color: #696969;
 }
 div.note.gray::before {
-  color: #676767;
+  color: #696969;
 }
 div.note.theme {
-  background: #e2f1ed;
+  background: #ecfbf7;
   border-color: #44d7b6;
 }
 div.note.theme::before {
   color: #44d7b6;
 }
 div.note.red {
-  background: #f5e5e4;
+  background: #feefee;
   border-color: #fe5f58;
 }
 div.note.red::before {
   color: #fe5f58;
 }
 div.note.yellow {
-  background: #f5eedf;
+  background: #fff8e9;
   border-color: #ffbd2b;
 }
 div.note.yellow::before {
   color: #ffbd2b;
 }
 div.note.green {
-  background: #e1efe3;
+  background: #ebf9ed;
   border-color: #3dc550;
 }
 div.note.green::before {
   color: #3dc550;
 }
 div.note.cyan {
-  background: #def0f4;
+  background: #e8fafe;
   border-color: #1bcdfc;
 }
 div.note.cyan::before {
   color: #1bcdfc;
 }
 div.note.blue {
-  background: #deeaf3;
+  background: #e8f4fd;
   border-color: #2196f3;
 }
 div.note.blue::before {
@@ -1496,7 +1496,7 @@ div.tabs ul.nav-tabs li.tab a i {
 div.tabs ul.nav-tabs li.tab.active a {
   cursor: default;
   color: var(--color-p);
-  background: #f4f4f4;
+  background: #fff;
   border: 1px solid rgba(68,68,68,0.2);
   border-bottom: 1px solid var(--color-card);
 }
@@ -2238,49 +2238,6 @@ div.fancybox .image-caption {
 div.fancybox .image-caption:empty {
   display: none;
 }
-.highlight {
-  position: relative;
-}
-.btn-copy {
-  z-index: 1;
-  display: inline-block;
-  cursor: pointer;
-  border: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  -webkit-appearance: none;
-  font-family: Menlo, Menlo, UbuntuMono, Monaco, monospace, courier, sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 4px 8px;
-  color: var(--color-meta);
-  background: var(--color-card);
-  border-radius: 3px;
-  box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
-  position: absolute;
-  top: 1px;
-  right: 1px;
-  opacity: 0;
-  transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-}
-.btn-copy >i {
-  margin-right: 4px;
-}
-.btn-copy:hover {
-  color: #ff5722;
-  background: #f5e4df;
-}
-.highlight:hover .btn-copy {
-  opacity: 1;
-}
-.article pre:hover .btn-copy {
-  opacity: 1;
-}
 article#comments {
   position: relative;
 }
@@ -2411,7 +2368,7 @@ article#comments #valine_container button {
 }
 article#comments #valine_container button:hover {
   color: #ff5722;
-  background: #f5e4df;
+  background: #ffeee8;
 }
 article#comments #valine_container button.vmore {
   width: 100%;
@@ -2438,7 +2395,7 @@ article#comments #valine_container .vcards .vimg {
   background: var(--color-block);
 }
 article#comments #valine_container .vcards .vcontent.expand:before {
-  background: linear-gradient(180deg, rgba(244,244,244,0.9), rgba(246,246,246,0.9));
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(246,246,246,0.9));
 }
 article#comments #valine_container .vcards .vcontent.expand:after {
   background: rgba(246,246,246,0.9);
@@ -2543,131 +2500,6 @@ article#comments #valine_container .vinput {
 }
 article#comments #valine_container p {
   color: var(--color-text);
-}
-div#rightmenu-wrapper {
-  display: none;
-  position: fixed;
-  z-index: 9000;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-}
-ul.list-v.rightmenu {
-  display: block;
-  max-width: 240px;
-  overflow: hidden;
-}
-ul.list-v.rightmenu.left {
-  right: 0;
-}
-ul.list-v.rightmenu.top {
-  bottom: 0;
-}
-ul.list-v.rightmenu a {
-  cursor: default;
-}
-ul.list-v.rightmenu a.vlts-menu {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  line-height: 32px;
-}
-ul.list-v.rightmenu li.navigation,
-ul.list-v.rightmenu li.music {
-  display: flex;
-  justify-content: space-between;
-}
-ul.list-v.rightmenu li.navigation a.icon-only,
-ul.list-v.rightmenu li.music a.icon-only {
-  line-height: 0;
-  margin: 0;
-  padding: 0;
-  border-radius: 32px;
-  overflow: hidden;
-  width: 32px;
-  height: 32px;
-}
-ul.list-v.rightmenu li.navigation a.nav i,
-ul.list-v.rightmenu li.music a.nav i {
-  margin: 0;
-  width: 32px;
-  line-height: 32px;
-}
-ul.list-v.rightmenu li.navigation a.nav:first-child,
-ul.list-v.rightmenu li.music a.nav:first-child {
-  margin-left: 10px;
-}
-ul.list-v.rightmenu li.navigation a.nav:last-child,
-ul.list-v.rightmenu li.music a.nav:last-child {
-  margin-right: 10px;
-}
-ul.list-v.rightmenu li.music.name {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-ul.list-v.rightmenu li.music.name p.nav.music-title {
-  color: #676767;
-  font-size: 0.875rem;
-  max-width: 128px;
-  margin: 0 20px;
-  overflow: hidden;
-}
-ul.list-v.rightmenu li.music.name p.nav.music-title:hover {
-  background: none;
-}
-ul.list-v.rightmenu li.music a.nav.volume {
-  width: 100%;
-  padding: 0 8px;
-}
-ul.list-v.rightmenu li.music a.nav.volume:hover {
-  background: transparent;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar {
-  margin: 4px 0 8px;
-  position: relative;
-  height: 8px;
-  width: 100%;
-  background: #ededed;
-  border-radius: 32px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.left,
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.right {
-  color: #676767;
-  position: absolute;
-  top: 0;
-  width: 28px;
-  line-height: 28px;
-  transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-  opacity: 0;
-  transform: scale(0.5) translateY(-18px);
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.left {
-  left: 0;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.right {
-  right: 0;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar:hover {
-  height: 28px;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar:hover i {
-  opacity: 1;
-  transform: scale(1) translateY(0);
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar .aplayer-volume {
-  background: #44d7b6;
-  height: 100%;
-  width: 100%;
 }
 article#arc,
 article#cat,
@@ -2880,8 +2712,8 @@ article#tag .all-tags ul li span:before {
 }
 .article s,
 .article del {
-  color: #8a8a8a;
-  text-decoration-color: #8a8a8a;
+  color: #8e8e8e;
+  text-decoration-color: #8e8e8e;
 }
 .article u {
   color: var(--color-text);
@@ -2900,7 +2732,7 @@ article#tag .all-tags ul li span:before {
 }
 .article psw {
   color: transparent;
-  background: #9c9c9c;
+  background: #a1a1a1;
   border-radius: 2px;
   transition: all 0.28s ease;
   -moz-transition: all 0.28s ease;
@@ -2915,7 +2747,7 @@ article#tag .all-tags ul li span:before {
   border-radius: 4px;
   border: 1px solid #d2d2d2;
   border-bottom-width: 2px;
-  background: #f5f5f5;
+  background: #fafafa;
   padding-left: 4px;
   padding-right: 4px;
 }
@@ -3863,9 +3695,6 @@ article#comments #loading-comments a.load-comments:hover {
 .white-box {
   background: var(--color-card);
 }
-.reveal {
-  visibility: hidden;
-}
 img {
   max-width: 100%;
 }
@@ -4067,7 +3896,7 @@ img.lazyload:not(.placeholder).loaded {
   border-radius: 4px;
 }
 .l_main .article .prev-next >a:hover {
-  background: #f5e4df;
+  background: #ffeee8;
 }
 .l_main .article .prev-next >a:hover p.title {
   color: #ff5722;
@@ -4475,7 +4304,7 @@ img.lazyload:not(.placeholder).loaded {
   border-radius: 100px;
 }
 .widget.blogger .content .social-wrapper a.social:hover {
-  background: #e2f1ed;
+  background: #ecfbf7;
   color: #44d7b6;
 }
 @media screen and (max-width: 768px) {
