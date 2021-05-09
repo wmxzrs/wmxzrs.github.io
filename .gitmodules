@@ -1,0 +1,3 @@
+[submodule "dist/wmxzrs.github.io"]
+	path = dist/wmxzrs.github.io
+	url = git@github.com:wmxzrs/wmxzrs.github.io.git
