@@ -1,11 +1,11 @@
 {
 	"head": {
-		"title": "一个坏掉的番茄",
+		"title": "test",
 		"description": "Author:SimonMa,Category:Personal Blog",
 		"favicon": "favicon.ico"
 	},
 	"intro": {
-		"title": "Simon Ma",
+		"title": "Toki Ame",
 		"subtitle": "Front back left right end engineer",
 		"enter": "enter",
 		"supportAuthor": true,
@@ -31,12 +31,12 @@
 				"text": "About"
 			},
 			"third": {
-				"href": "mailto:simon@tomotoes.com",
+				"href": "mailto:wmxzrs@outlook.com",
 				"icon": "email",
 				"text": "Email"
 			},
 			"fourth": {
-				"href": "https://github.com/tomotoes",
+				"href": "https://github.com/wmxzrs",
 				"icon": "github",
 				"text": "Github"
 			}
