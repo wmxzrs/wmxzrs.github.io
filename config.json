@@ -1,18 +1,19 @@
 {
 	"head": {
-		"title": "test",
-		"description": "Author:SimonMa,Category:Personal Blog",
+		"title": "时雨の主页",
+		"description": "Author:Tokiame, my homepage",
 		"favicon": "favicon.ico"
+		
 	},
 	"intro": {
 		"title": "Toki Ame",
-		"subtitle": "Front back left right end engineer",
-		"enter": "enter",
-		"supportAuthor": true,
+		"subtitle": "full stack engineer",
+		"enter": "Enter",
+		"supportAuthor": false,
 		"background": true
 	},
 	"main": {
-		"name": "Simon Ma",
+		"name": "Toki Ame",
 		"signature": "Code & Input & Output",
 		"avatar": {
 			"link": "assets/avatar.jpg",
@@ -26,7 +27,7 @@
 				"text": "Blog"
 			},
 			"second": {
-				"href": "about/",
+				"href": "https://wmxzrs.github.io/about",
 				"icon": "xiaolian",
 				"text": "About"
 			},
@@ -38,7 +39,13 @@
 			"fourth": {
 				"href": "https://github.com/wmxzrs",
 				"icon": "github",
-				"text": "Github"
+				"text": "Github"	
+				},
+			"fifth": {
+				"href": "https://",
+				"icon": "shijian",
+				"text": "life"
+		
 			}
 		}
 	}
