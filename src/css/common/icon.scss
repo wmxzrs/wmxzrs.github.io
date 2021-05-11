@@ -1,8 +1,9 @@
+@import url('https://at.alicdn.com/t/font_2536872_dcapoyn6sgr.css');
 @font-face {
 	font-family: 'iconfont';
 	font-display: auto;
-	
 
+	
 	src: url('//at.alicdn.com/t/font_1056856_p9cyrhslv5j.eot?t=1551327438450'); /* IE9 */
 	src: url('//at.alicdn.com/t/font_1056856_p9cyrhslv5j.eot?t=1551327438450#iefix')
 			format('embedded-opentype'),
@@ -16,6 +17,13 @@
 		/* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
 			url('//at.alicdn.com/t/font_1056856_p9cyrhslv5j.svg?t=1551327438450#iconfont')
 			format('svg'); /* iOS 4.1- */
+		
+
+
+	//    src: url('//at.alicdn.com/t/font_2536872_dcapoyn6sgr.woff2?t=1620598229079') format('woff2'),
+	// 	url('//at.alicdn.com/t/font_2536872_dcapoyn6sgr.woff?t=1620598229079') format('woff'),
+	//     url('//at.alicdn.com/t/font_2536872_dcapoyn6sgr.ttf?t=1620598229079') format('truetype');
+			  
 		
 }
 
@@ -60,4 +68,7 @@
 /* wechat */
 .icon-wechat:before {
 	content: '\f23b';
+}
+.icon-shenghuo:before {
+	content: '\e61a';
 }
