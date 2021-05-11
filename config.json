@@ -7,7 +7,7 @@
 	},
 	"intro": {
 		"title": "Toki Ame",
-		"subtitle": "full stack engineer",
+		"subtitle": "I wish I could be...",
 		"enter": "Enter",
 		"supportAuthor": false,
 		"background": true
@@ -43,8 +43,8 @@
 				},
 			"fifth": {
 				"href": "https://",
-				"icon": "shijian",
-				"text": "life"
+				"icon": "",
+				"text": "Vita"
 		
 			}
 		}
