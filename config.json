@@ -45,8 +45,12 @@
 				"href": "https://wmxzrs.github.io/vita",
 				"icon": "shenghuo",
 				"text": "Vita"
-		
+			},
+			"sixth": {
+				"href": "https://wmxzrs.github.io/note",
+				"icon": "Note-BookMarker",
+				"text": "Note"
+			}
 			}
 		}
 	}
-}
