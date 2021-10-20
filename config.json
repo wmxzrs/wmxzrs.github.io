@@ -27,29 +27,29 @@
 				"text": "Blog"
 			},
 			"second": {
-				"href": "https://wmxzrs.github.io/about",
-				"icon": "xiaolian",
-				"text": "About"
-			},
-			"third": {
-				"href": "mailto:wmxzrs@outlook.com",
-				"icon": "email",
-				"text": "Email"
-			},
-			"fourth": {
-				"href": "https://github.com/wmxzrs",
-				"icon": "github",
-				"text": "Github"	
-				},
-			"fifth": {
 				"href": "https://wmxzrs.github.io/vita",
 				"icon": "shenghuo",
 				"text": "Vita"
 			},
-			"sixth": {
+			"third": {
 				"href": "https://wmxzrs.github.io/note",
 				"icon": "Note-BookMarker",
 				"text": "Note"
+			},
+			"fourth": {
+				"href": "https://wmxzrs.github.io/about",
+				"icon": "xiaolian",
+				"text": "About"
+				},
+			"fifth": {
+				"href": "mailto:wmxzrs@outlook.com",
+				"icon": "email",
+				"text": "Email"
+			},
+			"sixth": {
+				"href": "https://github.com/wmxzrs",
+				"icon": "github",
+				"text": "Github"	
 			}
 			}
 		}
