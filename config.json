@@ -1,6 +1,6 @@
 {
 	"head": {
-		"title": "时雨の主页",
+		"title": "WarmNest",
 		"description": "Author:Tokiame, my homepage",
 		"favicon": "favicon.ico"
 		
@@ -16,7 +16,7 @@
 		"name": "Toki Ame",
 		"signature": "Code & Input & Output",
 		"avatar": {
-			"link": "assets/avatar.jpg",
+			"link": "https://cdn.jsdelivr.net/gh/wmxzrs/img@main/img/Cool-anime-wallpaper-_-Custom-anime-art-for-you!-_-cool-anime-boy-with-black-hair-and-green-eyes.6ikvp03uscg0.jpg",
 			"height": "100",
 			"width": "100"
 		},
